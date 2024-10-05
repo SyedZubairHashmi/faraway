@@ -1,0 +1,93 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* parent div in app.js file css */
+.main{
+  height: 100vh;
+  width: 100vw;
+}
+
+
+
+/* images of form section css */
+.image img {
+    height: 100px;
+    width: 100px;
+}
+ 
+  
+/* first section header which class is logo css */
+.logo {
+  background-color: rgb(79, 195, 26);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 15%;
+}
+
+
+/* second section css which is form */
+.form {
+  background-color: rgb(217, 150, 50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  gap: 5px;
+}
+.form input,
+select,
+button {
+  height: 35px;
+  border-radius: 20px;
+  padding: 5px 20px;
+  border: none;
+}
+p {
+  font-weight: 600;
+}
+button {
+  background-color: rgb(184, 168, 199);
+}
+
+
+/* third section css which is package */
+.package {
+  background-color: brown;
+  height: 65%;
+
+  color: antiquewhite;
+}
+.itemslist {
+  display: flex;
+  justify-content: center;
+  padding: 30px 80px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.checkbox {
+  margin-right: 10px;
+}
+.cross {
+  color: red;
+  font-weight: 800;
+  font-size: larger;
+  margin-left: 10px;
+}
+.cross:hover{
+    cursor: pointer;
+}
+
+
+ /* stats section css footer */
+.stats {
+  background-color: rgb(113, 137, 129);
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
